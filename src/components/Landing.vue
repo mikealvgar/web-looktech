@@ -13,7 +13,7 @@
                 <a href="#" class="text-xl font-bold">LookTech</a>
             </div>
 
-            <div class="md:hidden">
+            <div class="md:hidden ">
                 <button @click="isOpen = !isOpen" class="text-white focus:outline-none">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" v-if="!isOpen" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -31,7 +31,7 @@
             </div>
             </div>
 
-            <div v-if="isOpen" class="md:hidden bg-blue-700 pb-4">
+            <div v-if="isOpen" class="md:hidden bg-slate-950 pb-4">
             <div class="flex flex-col items-center space-y-4">
                 <a href="#" class="block text-white hover:text-gray-200 w-full text-center py-2">Inicio</a>
                 <a href="#" class="block text-white hover:text-gray-200 w-full text-center py-2">Cámaras de Seguridad</a>
@@ -265,7 +265,7 @@
                 </div>
 
                 <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm opacity-80">
-                &copy; {{ currentYear }} LookTech. Todos los derechos reservados.
+                &copy; 2025 LookTech. Todos los derechos reservados.
                 </div>
         </footer>
     </div>
