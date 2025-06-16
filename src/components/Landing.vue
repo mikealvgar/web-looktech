@@ -175,7 +175,7 @@
         </div>
     </Section>
     <section 
-        class="mt-20 relative h-screen bg-cover bg-center flex items-center p-4 md:p-8 lg:p-16 bg-[url('../assets/images/background-teziutlan.png')]" 
+        class="mt-20 relative h-150 bg-cover bg-center flex items-center p-4 md:p-8 lg:p-16 bg-[url('../assets/images/background-teziutlan.png')]" 
     >
         <div class="absolute inset-0 bg-black opacity-50"></div>
 
@@ -197,38 +197,142 @@
         </a>
         </div>
     </section>
-    <div>
-        <p>¿PORQUÉ SOMOS TU MEJOR OPCIÓN EN VENTA DE CÁMARAS DE SEGURIDAD</p>
-        <p>	Simple, somos una empresa 100% Teziuteca con más experiencia en Cámaras de Seguridad en toda la zona. ¡Con nosotros compra SEGURIDAD!</p>
-        <p>Calidad y honestidad</p>
-        <p>Ofrecemos a nuestros clientes productos de calidad con soluciones adecuadas para satisfacer sus necesiades y brindarles tranquilidad.</p>
-        <p>Garantía</p>
-        <p>Ofrecemos a nuestros clientes garantía de nuestros servicios y productos de fábrica así como la instalación.</p>
-    </div>
-    <div>
-        <h1>¿QUIENES SOMOS?</h1>
-        <P>Somos una empresa líder en Seguridad electrónica, dedicada a la asesoría, venta e instalación de equipos de Vigilancia (CCTV) y videocámaras de seguridad de última tecnología para casas y negocios, ofreciendo mucho valor agregado a los productos que comercializamos por la constante capacitación de personal.</P>
-    </div>
-    <div>
-        <img src="" alt="">
-        <p>Videovigilancia para negocios</p>
-        <p>Con sus cámaras puede Supervisar, Escuchar y Grabar su negocio a distancia en tiempo real, con tecnología inteligente para Prevenir, Aumentar su Productividad, Reducir Costos y Tiempos.</p>
-        <p>Saber más...</p>
+    <section class="bg-white py-25 px-4 md:px-8 lg:px-16">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div class="text-left">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 leading-tight">
+                ¿PORQUÉ SOMOS TU MEJOR OPCIÓN EN VENTA DE CÁMARAS DE SEGURIDAD?
+                </h2>
+                <p class="text-gray-700 text-lg md:text-xl leading-relaxed">
+                Simple, somos una <strong class="font-semibold text-slate-950">empresa 100% Teziuteca</strong>
+                con más experiencia en <strong class="font-semibold text-slate-950">Cámaras de Seguridad</strong>
+                en toda la zona. ¡Con nosotros compra SEGURIDAD!
+                </p>
+            </div>
 
-        <img src="" alt="">
-        <p>Videovigilancia para hogar</p>
-        <p>Disuasión, tecnología inteligente, monitoreo, grabación y visualización en cualquier parte del mundo las 24 horas, libre de contratos y soporte técnico; todo esto a un muy bajo costo.</p>
-        <p>Saber más...</p>
+            <div class="space-y-8">
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 mr-4 mt-1">
+                        <svg class="w-8 h-8 text-slate-950" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Calidad y honestidad</h3>
+                        <p class="text-gray-600">
+                        Ofrecemos a nuestros clientes productos de calidad con soluciones adecuadas para satisfacer
+                        sus necesidades y brindarles tranquilidad.
+                        </p>
+                    </div>
+                    </div>
 
-        <img src="" alt="">
-        <p>Instalación y Soporte Técnico</p>
-        <p>Técnicos CERTIFICADOS EN CCTV y en constante capacitación para trabajar con diferentes marcas, le asesorarán para la correcta elección, instalación y protección de su equipo de videovigilancia.</p>
-        <p>Saber más...</p>
-    </div>
+                    <div class="flex items-start">
+                    <div class="flex-shrink-0 mr-4 mt-1">
+                        <svg class="w-8 h-8 text-slate-950" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Garantía</h3>
+                        <p class="text-gray-600">
+                        Ofrecemos a nuestros clientes garantía de nuestros servicios y productos de fábrica así como la
+                        instalación.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-10 px-4 md:px-8 lg:px-16">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+               ¿QUIENES SOMOS?
+            </h2>
+
+            <p class="text-gray-700 text-lg md:text-xl leading-relaxed">
+                Somos una empresa líder en Seguridad electrónica, dedicada a la asesoría, venta e instalación de
+                equipos de Videovigilancia (CCTV) y videocámaras de seguridad, de última tecnología para casas
+                y negocios, ofreciéndole mucho valor agregado a los productos que comercializa por la constante
+                capacitación de su personal.
+            </p>
+        </div>
+    </section>
+    <section class="bg-white py-12 px-4 md:px-8 lg:px-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
+                    <div class="p-4 flex justify-center items-center h-48">
+                        <img
+                        src="../assets/images/camara-wifi2.png"
+                        alt="Cámara de domo para negocios"
+                        class="max-w-[10rem] h-auto object-contain"
+                        />
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">Videovigilancia para negocios</h3>
+                        <p class="text-gray-700 mb-6 flex-grow">
+                        Con sus cámaras puede <strong class="font-bold">Supervisar, Escuchar y Grabar</strong> su negocio a distancia
+                        en tiempo real, con tecnología inteligente para Prevenir, Aumentar su Productividad,
+                        Reducir Costos y Tiempos.
+                        </p>
+                        <div class="mt-auto">
+                            <button class="w-full bg-slate-950 hover:bg-slate-800 text-white font-semibold py-3 px-6 rounded-md transition duration-300">
+                                SABER MÁS.
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
+                    <div class="p-4 flex justify-center items-center h-48">
+                        <img
+                        src="../assets/images/camaras-hogar.png"
+                        alt="Cámara bullet para el hogar"
+                        class="max-w-[15rem] h-auto object-contain"
+                        />
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">Videovigilancia para el hogar</h3>
+                        <p class="text-gray-700 mb-6 flex-grow">
+                        Disuasión, tecnología inteligente, monitoreo, grabación y visualización en
+                        cualquier parte del mundo las 24 horas, libre de contratos y
+                        soporte técnico; todo esto a un muy bajo costo.
+                        </p>
+                        <div class="mt-auto">
+                            <button class="w-full bg-slate-950 hover:bg-slate-800 text-white font-semibold py-3 px-6 rounded-md transition duration-300">
+                                SABER MÁS.
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
+                    <div class="p-4 flex justify-center items-center h-48">
+                        <img
+                        src="../assets/images/camara-wifi2.png"
+                        alt="Cámara de domo para instalación"
+                        class="max-w-[10rem] h-auto object-contain"
+                        />
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">Instalación y Soporte Técnico</h3>
+                        <p class="text-gray-700 mb-6 flex-grow">
+                        Técnicos <strong class="font-bold">CERTIFICADOS EN CCTV</strong> y en constante
+                        capacitación para trabajar con diferentes marcas, le
+                        asesorarán para la correcta elección, instalación y
+                        protección de su equipo de videovigilancia.
+                        </p>
+                        <div class="mt-auto">
+                            <button class="w-full bg-slate-950 hover:bg-slate-800 text-white font-semibold py-3 px-6 rounded-md transition duration-300">
+                                SABER MÁS.
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <div>
        <footer class="bg-slate-950 text-white py-12 px-4">
             <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
-
                 <div class="flex flex-col items-center md:items-start mb-6 md:mb-0">
                     <img 
                     src="../assets/images/logo.jpg" 
@@ -265,7 +369,7 @@
                 </div>
 
                 <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm opacity-80">
-                &copy; 2025 LookTech. Todos los derechos reservados.
+                    &copy; 2025 LookTech. Todos los derechos reservados.
                 </div>
         </footer>
     </div>
